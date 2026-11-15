@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="Video">
+
+        <ListPreference
+            app:defaultValue="1080"
+            app:entries="@array/res_entries"
+            app:entryValues="@array/res_values"
+            app:iconSpaceReserved="false"
+            app:key="resolution"
+            app:title="Resolusi"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="30"
+            app:entries="@array/fps_entries"
+            app:entryValues="@array/fps_values"
+            app:iconSpaceReserved="false"
+            app:key="fps"
+            app:title="Frame rate (batas atas)"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="8"
+            app:entries="@array/bitrate_entries"
+            app:entryValues="@array/bitrate_values"
+            app:iconSpaceReserved="false"
+            app:key="bitrate"
+            app:title="Kualitas (bitrate)"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="auto"
+            app:entries="@array/orientation_entries"
+            app:entryValues="@array/orientation_values"
+            app:iconSpaceReserved="false"
+            app:key="orientation"
+            app:title="Orientasi video"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="Suara">
+
+        <ListPreference
+            app:defaultValue="internal"
+            app:entries="@array/audio_entries"
+            app:entryValues="@array/audio_values"
+            app:iconSpaceReserved="false"
+            app:key="audio_source"
+            app:title="Sumber suara"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="Kontrol">
+
+        <ListPreference
+            app:defaultValue="3"
+            app:entries="@array/countdown_entries"
+            app:entryValues="@array/countdown_values"
+            app:iconSpaceReserved="false"
+            app:key="countdown"
+            app:title="Hitung mundur"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="floating"
+            app:summary="Tombol merah di atas game untuk mulai, jeda, dan stop"
+            app:title="Tombol mengambang" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="hide_while_recording"
+            app:summary="Supaya tombol tidak ikut terekam. Berhenti lewat notifikasi"
+            app:title="Sembunyikan tombol saat merekam" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

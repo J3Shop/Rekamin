@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="res_entries">
+        <item>480p (hemat)</item>
+        <item>720p</item>
+        <item>1080p</item>
+        <item>Asli (resolusi layar)</item>
+    </string-array>
+    <string-array name="res_values">
+        <item>480</item>
+        <item>720</item>
+        <item>1080</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="fps_entries">
+        <item>24 fps</item>
+        <item>30 fps</item>
+        <item>60 fps (game)</item>
+    </string-array>
+    <string-array name="fps_values">
+        <item>24</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+
+    <string-array name="bitrate_entries">
+        <item>2 Mbps (kecil)</item>
+        <item>4 Mbps</item>
+        <item>8 Mbps</item>
+        <item>12 Mbps</item>
+        <item>16 Mbps (tajam)</item>
+    </string-array>
+    <string-array name="bitrate_values">
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>12</item>
+        <item>16</item>
+    </string-array>
+
+    <string-array name="audio_entries">
+        <item>Tanpa suara</item>
+        <item>Mikrofon</item>
+        <item>Suara game / internal</item>
+        <item>Mikrofon + suara game</item>
+    </string-array>
+    <string-array name="audio_values">
+        <item>none</item>
+        <item>mic</item>
+        <item>internal</item>
+        <item>both</item>
+    </string-array>
+
+    <string-array name="orientation_entries">
+        <item>Otomatis (sesuai layar saat mulai)</item>
+        <item>Potret</item>
+        <item>Lanskap</item>
+    </string-array>
+    <string-array name="orientation_values">
+        <item>auto</item>
+        <item>portrait</item>
+        <item>landscape</item>
+    </string-array>
+
+    <string-array name="countdown_entries">
+        <item>Tanpa hitung mundur</item>
+        <item>3 detik</item>
+        <item>5 detik</item>
+        <item>10 detik</item>
+    </string-array>
+    <string-array name="countdown_values">
+        <item>0</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+</resources>

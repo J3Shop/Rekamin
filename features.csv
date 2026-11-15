@@ -1,0 +1,20 @@
+feature,area,priority,original,clone,notes
+Rekam layar ke MP4,core,must,yes,yes,H.264 + AAC
+Suara internal / game,audio,must,yes,yes,AudioPlaybackCapture Android 10+; game yang memblokir tidak bisa direkam
+Suara mikrofon,audio,must,yes,yes,
+Mic + suara game digabung,audio,should,yes,yes,mixing PCM
+Tombol mengambang,control,must,yes,yes,mulai/jeda/stop
+Hitung mundur,control,should,yes,yes,0/3/5/10 detik
+Jeda dan lanjut,control,should,unknown,yes,tidak terkonfirmasi di sumber yang dibaca
+Kontrol dari notifikasi,control,should,unknown,yes,
+Pilihan resolusi,settings,must,yes,yes,480p/720p/1080p/asli
+Pilihan fps,settings,must,yes,yes,24/30/60 (aslinya sampai 120 di Pro)
+Pilihan bitrate,settings,must,yes,yes,2-16 Mbps
+Pilihan orientasi,settings,should,yes,yes,auto/potret/lanskap
+Perpustakaan video,library,must,yes,yes,putar/bagikan/hapus
+Editor trim dan merge,library,could,yes,no,versi berikutnya
+Facecam,capture,could,yes,no,versi berikutnya
+Screenshot saat merekam,capture,could,yes,no,
+Livestream YouTube,capture,could,yes,skip,butuh akun dan API
+Pengurang noise,audio,could,yes,no,
+Paket Pro (iklan/watermark/voice changer),business,could,yes,skip,model bisnis tidak ditiru

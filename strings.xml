@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rekamin</string>
+    <string name="tagline">Rekam layar dan suara game</string>
+
+    <string name="btn_record">Rekam</string>
+    <string name="btn_stop">Berhenti</string>
+    <string name="btn_cancel">Batal</string>
+
+    <string name="status_idle">Siap merekam</string>
+    <string name="status_ready">Tombol merah aktif. Buka game, lalu ketuk tombol itu untuk mulai.</string>
+    <string name="status_countdown">Bersiap…</string>
+    <string name="status_recording">Sedang merekam</string>
+    <string name="status_paused">Rekaman dijeda</string>
+
+    <string name="audio_label">Sumber suara</string>
+    <string name="audio_none">Tanpa</string>
+    <string name="audio_mic">Mic</string>
+    <string name="audio_internal">Game</string>
+    <string name="audio_both">Mic+Game</string>
+    <string name="audio_tip">Suara game direkam langsung dari sistem. Pakai headset jika memilih Mic+Game agar tidak bergema.</string>
+
+    <string name="my_videos">Video saya</string>
+    <string name="settings">Pengaturan</string>
+
+    <string name="overlay_title">Izin tombol mengambang</string>
+    <string name="overlay_msg">Agar tombol rekam tampil di atas game, izinkan Tampil di atas aplikasi lain untuk Rekamin. Setelah itu kembali ke sini dan ketuk Rekam lagi.</string>
+    <string name="open_settings">Buka pengaturan</string>
+    <string name="continue_without">Lanjut tanpa tombol</string>
+
+    <string name="channel_rec">Perekaman layar</string>
+    <string name="channel_saved">Rekaman tersimpan</string>
+    <string name="notif_ready_title">Siap merekam</string>
+    <string name="notif_ready_text">Ketuk tombol merah di layar atau Mulai</string>
+    <string name="notif_counting">Hitung mundur…</string>
+    <string name="notif_recording">Sedang merekam</string>
+    <string name="notif_paused">Rekaman dijeda</string>
+    <string name="action_start">Mulai</string>
+    <string name="action_pause">Jeda</string>
+    <string name="action_resume">Lanjut</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_cancel">Batal</string>
+    <string name="saved_title">Rekaman tersimpan</string>
+    <string name="saved_text">Ketuk untuk memutar</string>
+
+    <string name="bubble_rec">REC</string>
+    <string name="bubble_paused">Jeda</string>
+
+    <string name="toast_saved">Rekaman tersimpan di Galeri (Movies/Rekamin)</string>
+    <string name="toast_failed">Gagal merekam: %1$s</string>
+    <string name="toast_too_short">Rekaman terlalu singkat, tidak disimpan</string>
+    <string name="toast_no_audio_perm">Izin mikrofon belum diberikan, merekam tanpa suara</string>
+    <string name="toast_audio_fallback">Suara tidak bisa direkam: %1$s. Video tetap direkam.</string>
+    <string name="toast_denied">Izin rekam layar ditolak</string>
+
+    <string name="videos_empty">Belum ada rekaman</string>
+    <string name="share">Bagikan</string>
+    <string name="delete">Hapus</string>
+    <string name="delete_confirm">Hapus video ini?</string>
+    <string name="cancel">Batal</string>
+    <string name="delete_failed">Video tidak bisa dihapus</string>
+    <string name="res_native">Asli</string>
+</resources>
